@@ -1,0 +1,4 @@
+[[redirects]]
+from = "/*"
+to = "/kali-akyaka-menu.html"
+status = 200
