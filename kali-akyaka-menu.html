@@ -11,9 +11,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
     * {
-        width:100%;
-        height:100%;
-        background-image: url(kuluckahane-eminyarka.jpg);
+        background-color: #262C3A;
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -29,13 +27,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        scroll-snap-align: start;
     }
 
     .container {
         margin: auto;
+        scroll-snap-type: y mandatory;
+        overflow-y: scroll;
         height: 100vh;
-        display: flex;
-        flex-direction: column;
     }
 
     .three {
@@ -46,14 +45,14 @@
 <body>
     <div class="container">
         <section class="one">
-           <img src="kali-akyaka-menu-pics/Kali.jpeg">
-        </section> <section class="one">
-           <img src="kali-akyaka-menu-pics/KaliM1.jpeg">
-        </section> <section class="one">
-           <img src="kali-akyaka-menu-pics/KaliM2.jpeg">
+            <img src="kali-akyaka-menu-pics/Kali.jpeg" alt="">
         </section>
-
+        <section class="two">
+            <img src="kali-akyaka-menu-pics/KaliM1.jpeg" alt="">
+        </section>
+        <section class="three">
+            <img src="kali-akyaka-menu-pics/KaliM2.jpeg" alt="">
+        </section>
     </div>
 </body>
 
-</html>
